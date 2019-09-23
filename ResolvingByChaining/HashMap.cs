@@ -41,6 +41,7 @@ namespace ResolvingByChaining
             if (table[hash] == null) // value to be given at main
             {
                 table[hash] = new LinkedHashEntry(key, value);
+                
             }
             else
             {
